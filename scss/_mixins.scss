@@ -1,0 +1,42 @@
+// rem fallback - credits: http://zerosixthree.se/
+
+@mixin font-size($size: 1.6) {
+    font-size: $size;
+    font-size: ($size / 16px) * 1rem;
+}
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// center vertically and/or horizontally an absolute positioned element
+
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+// Vertical Align
+@mixin vertical-align($height: 50%) {
+  position: relative;
+  top: $height;
+  -webkit-transform: translateY(-$height);
+  -ms-transform: translateY(-$height);
+  transform: translateY(-$height);
+}

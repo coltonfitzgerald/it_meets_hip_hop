@@ -1,0 +1,42 @@
+/* TEAM */
+
+Web Developer: Colton Fitzgerald
+Site: www.coltonfitzgerald.me
+Email: colton [at] coltonfitzgerald.me
+Twitter: @colton_fitz
+Location: Las Vegas, NV
+
+Lead Web Designer: Nicole Overman
+Site: www.nicoleoverman.me
+Email: nicole [at] nicoleoverman.me
+Twitter: @nicoolee_ann
+Location: Las Vegas, NV
+
+Web Designer: Alex Higashi
+Location: Las Vegas, NV
+
+Lead Content: Chandler Gustafson
+Site: www.virevegas.com
+Email: gustafsonchandler [at] gmail.com
+Location: Las Vegas, NV
+
+Content: Ethan Dartsch
+Location: Las Vegas, NV
+
+/* THANKS */
+
+Cody House: www.codyhouse.co
+Why: Cody House provided our team with a beautiful FAQ-inspired accordion to 
+    display the exhibits and workshops within IT Meets Hip Hop. They also made
+    the scroll to top button. They are a great Web Dev resource.
+
+Responsive Mobile Menu: responsivemobilemenu.com
+Why: This is an open-source javascript library for adding a simple mobile
+    navigation to your site.
+
+/* SITE */
+Last Update: 2014/10/15
+Standards: HTML5, CSS3
+Components: Modernizer, jQuery, Compass, Bourbon, Bourbon Neat
+Software: Brackets.io, MAMP, Codekit, Adobe Illustrator CS6,
+    Chrome Dev Tools, Sass, Real Favicon Generator, W3C Validator

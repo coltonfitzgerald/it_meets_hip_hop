@@ -1,0 +1,33 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+.cd-faq *::after, .cd-faq *::before {
+	content: '';
+}
+
+body, html, nav {
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+
+body {
+	font: {
+		size: 100%;
+		family: $freight-sans;
+	}
+	color: $color-1;
+	background-color: $color-3;
+}
+
+a {
+	color: $color-2;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+p {
+	font-size: 16px;
+}

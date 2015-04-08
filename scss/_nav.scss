@@ -1,0 +1,45 @@
+nav.site-navigation {
+    width:100%;
+    z-index: 1;
+    transition: all 1s ease;
+    background-color: rgba(0,0,0,.0);
+    position: fixed;
+    // Fix the Double Scrollbar on older Chrome
+    overflow: hidden;
+    @media (max-width: 654px) {
+        // background-color: $orange;
+        background-color: #333;
+        color: white;
+        position: static;
+    }
+    ul {
+        text-align:center;
+        width: 100%;
+    }
+    li {
+        display:inline-block;
+        margin:0 1.5%;
+        float: none;
+        a {
+            font-weight:$medium;
+            @include font-size(18px);
+            color:white;
+            line-height: 55px;
+            transition: all 1s ease;
+        }
+    }
+    .container > a, ul {
+        display:inline-block;   
+    }
+    & > .container {
+     max-width: 100%;
+    }
+}
+.scrollNav {
+    background-color: #231F20!important;
+    transition: all 1s ease;
+    a {
+        transition: all 1s ease;
+        color: white!important;
+    }
+}
